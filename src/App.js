@@ -8,21 +8,21 @@ function App() {
   return (
     <Container id="main-container" className="d-grid h-100">
       <Form id="sign-in-form" className="text-center p-3 w-100">
-        <img className="mb-4 bootstrap-logo" 
-              src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" 
-              alt="Bootstrap 5" />
-        <h1 className="mb-3 fs-3 fw-normal">Please sign in</h1>
+        <img className="mb-4 logo" 
+              src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/SQUARE-LOGOS.jpg?auto=format&q=60&w=1860&h=1860&fit=crop&crop=faces"
+              alt="login" />
+        <h1 className="mb-3 fs-3 fw-normal">Please log in..</h1>
         <Form.Group controlId="sign-in-email-address">
-          <Form.Control type="email" size="lg" placeholder="Email address" autoComplete="username" className="position-relative" />
-        </Form.Group>
+          <Form.Control type="email" size="lg" placeholder="Enter your email" autoComplete="username" className="position-relative" />
+        </Form.Group><br></br>
         <Form.Group className="mb-3" controlId="sign-in-password">
-          <Form.Control type="password" size="lg" placeholder="Password" autoComplete="current-password" className="position-relative" />
-        </Form.Group>
+          <Form.Control type="password" size="lg" placeholder="Enter your password" autoComplete="current-password" className="position-relative" />
+        </Form.Group><br></br>
         <Form.Group className="d-flex justify-content-center mb-4" controlId="remember-me">
           <Form.Check label="Remember me" />
         </Form.Group>
         <div className="d-grid">
-          <Button variant="primary" size="lg">Sign in</Button>
+          <Button variant="dark" size="lg">Log in</Button>
         </div>
         <p className="mt-5 text-muted">&copy; 2021-2022</p>
       </Form>
