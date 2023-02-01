@@ -22,7 +22,7 @@ function App() {
           <Form.Check label="Remember me" />
         </Form.Group>
         <div className="d-grid">
-          <Button onClick={() => alert('You are logged in!')} variant="dark" size="lg">Log in</Button>
+          <Button onClick={() => alert('Welcome, You are logged in!')} variant="dark" size="lg">Log in</Button>
         </div>
         <p className="mt-5 text-muted">&copy; 2021-2022</p>
       </Form>
